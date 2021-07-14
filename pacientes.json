@@ -1,0 +1,76 @@
+{
+    "PACIENTES": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "data_nascimento": {
+                        "S": "1984-01-01"
+                    },
+                    "email": {
+                        "S": "humberto@mail.com"
+                    },
+                    "nome": {
+                        "S": "Humberto"
+                    },
+                    "paciente_id": {
+                        "S": "1234-abc"
+                    },
+                    "status": {
+                        "BOOL": true
+                    },
+                    "telefone": {
+                        "S": "11999995555"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "data_nascimento": {
+                        "S": "1975-01-01"
+                    },
+                    "email": {
+                        "S": "gabriel@mail.com"
+                    },
+                    "nome": {
+                        "S": "Gabriel"
+                    },
+                    "paciente_id": {
+                        "S": "1234-def"
+                    },
+                    "status": {
+                        "BOOL": true
+                    },
+                    "telefone": {
+                        "S": "11999995550"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "data_nascimento": {
+                        "S": "1999-01-01"
+                    },
+                    "email": {
+                        "S": "jose@mail.com"
+                    },
+                    "nome": {
+                        "S": "José"
+                    },
+                    "paciente_id": {
+                        "S": "1234-fgh"
+                    },
+                    "status": {
+                        "BOOL": true
+                    },
+                    "telefone": {
+                        "S": "11999995558"
+                    }
+                }
+            }
+        }
+    ]
+}
